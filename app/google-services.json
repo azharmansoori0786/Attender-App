@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "804907876465",
+    "project_id": "attenderfirebase",
+    "storage_bucket": "attenderfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804907876465:android:a272aceb5e3c34e7bb9bd0",
+        "android_client_info": {
+          "package_name": "com.example.attender"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLRnuLY-y0ONJqAY8o27Lz6tr9gpivenk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

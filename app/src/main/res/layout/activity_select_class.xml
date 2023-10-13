@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Select_class">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Select Student Activity"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <!-- Class selection dropdown -->
+    <TextView
+        android:id="@+id/class_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select class:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_below="@id/title_textview"
+        android:layout_marginTop="16dp"
+        tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:id="@+id/class_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/class_label"
+            android:layout_marginTop="8dp"
+            />
+
+    <!-- Course selection dropdown -->
+    <TextView
+        android:id="@+id/course_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select section:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_below="@id/class_spinner"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/course_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course_label"
+        android:layout_marginTop="8dp"
+        />
+
+    <!-- Year selection dropdown -->
+    <TextView
+        android:id="@+id/year_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select year:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_below="@id/course_spinner"
+        android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/year_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/year_label"
+            android:layout_marginTop="8dp" />
+
+    <!-- Submit button -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/year_spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#03A9F4"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Submit"
+        android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
